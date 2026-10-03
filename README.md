@@ -12,7 +12,7 @@ Inspired by the "chaotic three-body world" of the science fiction novel *The Thr
 
 > For planets in multi-star systems (two or more stars), how stable are their orbits — do they sense multiple suns, or, because companions are far away, effectively only one?
 
-## What We Do
+## What I Did
 
 1. **Query** confirmed S-type planets (orbiting a single primary) in multi-star systems from the NASA Exoplanet Archive (sy_snum ≥ 2, cb_flag = 0).
 2. **Cross-match** each system to the WDS binary-star catalog to obtain the real angular separation of companion stars (`sep`, in arcsec), via VizieR.
@@ -33,7 +33,7 @@ Inspired by the "chaotic three-body world" of the science fiction novel *The Thr
 - **R is almost always tiny** (`10⁻⁴`–`10⁻²`): observed multi-star planets orbit very close to their primary, far from the companion.
 - **~2/3 of sampled systems** fall in the *secular active* regime (`τ_sec ≤ t_MS`) — the companion can perturb within the stellar lifetime; only ~1/3 are dynamically dormant (`τ_sec > t_MS`). This is under the conservative `q = M_comp/M_★ = 1` assumption.
 - **The result is robust** to companion choice: using the nearest vs. widest companion both keep `R` in the `10⁻⁴`–`10⁻²` range.
-- A fraction of the "all-tiny-R" pattern is **observational selection**: detection limits (transit/RV) and angular-resolution limits shape which systems we can see.
+- A fraction of the "all-tiny-R" pattern is **observational selection**: detection limits (transit/RV) and angular-resolution limits shape which systems are observable.
 
 ## Repository Structure
 
