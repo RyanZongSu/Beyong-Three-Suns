@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+
+# Tooling artifacts (Codex / build caches)
+.build/
+.codex-finalizer/
+.codex-finalizer-story/
+.output/
+
+# Older working copies kept locally but not for the public repo
+old_>=3_suns/
+
+# Preview images (not deliverables)
+*_preview.png
