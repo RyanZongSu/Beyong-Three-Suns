@@ -1,4 +1,4 @@
-# Beyong-Three-Suns
+# Beyond-Three-Suns
 
 **Dynamic Dormancy in S-Type Planets of Multi-Star Systems**
 
