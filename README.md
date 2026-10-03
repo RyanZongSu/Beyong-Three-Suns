@@ -41,7 +41,7 @@ Inspired by the "chaotic three-body world" of the science fiction novel *The Thr
 .
 ├── README.md
 ├── s_type_multistar_wds.py        # Main pipeline: NASA + WDS cross-match, computes R and τ_sec
-├── make_portfolio_charts.py       # Generates the portfolio figures (slide0–3)
+├── make_charts.py                 # Generates the figures (slide0–3)
 ├── make_R_distribution.py         # R-distribution (ECDF/KDE) figure
 ├── make_geometry_schematic.py     # Geometric schematic of the a vs D hierarchy
 ├── verify_env.py                  # Environment sanity check
@@ -75,10 +75,10 @@ Reads the local NASA CSV, cross-matches with WDS, computes `R`, `τ_sec`, filter
 ### 3. Generate figures
 
 ```bash
-python make_portfolio_charts.py
+python make_charts.py
 ```
 
-Writes the portfolio charts used in the write-up.
+Writes the publication-quality output figures.
 
 ## Data Sources
 
@@ -94,4 +94,4 @@ Writes the portfolio charts used in the write-up.
 
 ## Author
 
-Personal planetary-science research project for undergraduate application. Contact via GitHub.
+A self-directed research project in planetary science. Contact via GitHub.

@@ -1,4 +1,4 @@
-"""Generate publication-quality English portfolio charts from the WDS-cleaned dataset."""
+"""Generate publication-quality English charts from the WDS-cleaned dataset."""
 
 from pathlib import Path
 import numpy as np
